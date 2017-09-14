@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.lakshay.navburnsview.EventFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_cultural"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#4Dffffff"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="CULTURAL"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tv_techcs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp"
+            android:background="#00ffffff"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="TECH CS"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tv_literary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="90dp"
+            android:background="#4Dffffff"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="LITERARY"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_techme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="135dp"
+            android:background="#00ffffff"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="TECH ME"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_techcivil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="180dp"
+            android:background="#4Dffffff"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text=" TECH CIVIL"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_informals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="225dp"
+            android:background="#00ffffff"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="INFORMALS"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_techee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="270dp"
+            android:background="#4Dffffff"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="TECH EE"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_egaming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="315dp"
+            android:background="#00ffffff"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="E-GAMING"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</ScrollView>

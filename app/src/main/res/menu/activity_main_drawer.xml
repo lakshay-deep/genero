@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/event"
+            android:title="Events" />
+        <item
+            android:id="@+id/special_events"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Special Events" />
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/registericon"
+            android:title="Register" />
+        <item
+            android:id="@+id/earn_credit"
+            android:icon="@drawable/earncredit"
+            android:title="Refer and Earn Credits" />
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/contactus"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/core_team"
+            android:icon="@drawable/coreteam"
+            android:title="Genero Core Team" />
+        <item
+            android:id="@+id/sponsors"
+            android:icon="@drawable/sponsoricon"
+            android:title="Sponsors" />
+
+    </group>
+
+</menu>
